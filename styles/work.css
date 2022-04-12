@@ -86,7 +86,7 @@ a {
 .contacts-content {
   border: 2px solid #272d2d26;
   height: 666px;
-  background: url("../images/contact-back.png");
+  background: url("..//images/contact-back.png");
   z-index: -1;
 }
 
