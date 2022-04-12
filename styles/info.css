@@ -86,7 +86,7 @@ a {
 .home {
   height: 580px;
   width: 1349px;
-  background: url("/images/info-back.png") no-repeat;
+  background: url("../images/info-back.png") no-repeat;
 }
 
 .home-content {
@@ -112,7 +112,7 @@ a {
 
 .info-content {
   height: 782px;
-  background: url("/images/info-background.png") no-repeat;
+  background: url("../images/info-background.png") no-repeat;
 }
 
 .main-info {
@@ -229,7 +229,7 @@ a {
 .project-before {
   margin-top: 90px;
   height: 642px;
-  background: url("/images/before-back.png") no-repeat;
+  background: url("../images/before-back.png") no-repeat;
 }
 
 .project-before-content {
