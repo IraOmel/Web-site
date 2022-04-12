@@ -93,7 +93,7 @@ line-height: 20px;
   padding-top: 81px;
   padding-bottom: 57px;
   margin-bottom: -10px;
-  background: url("/images/home-img.jpg") no-repeat;
+  background: url("images/home-img.jpg") no-repeat;
 }
 
 .home-content {
@@ -188,7 +188,7 @@ line-height: 41px;
   padding-top: 130px;
   padding-bottom: 15px;
   height: 658px;
-  background: url("/images/line.png") no-repeat;
+  background: url("images/line.png") no-repeat;
 }
 
 .about {
@@ -286,7 +286,7 @@ line-height: 41px;
   padding-top: 722px;
   padding-bottom: 18px;
   height: 669px;
-  background: url("/images/lines2.png") no-repeat;
+  background: url("images/lines2.png") no-repeat;
 }
 
 .container-fluid {
@@ -474,7 +474,7 @@ img {
 .our-advantages{
   margin-top: 11px;
   height: 437px;
-  background:url("/images/back-adv.png") no-repeat;
+  background:url("images/back-adv.png") no-repeat;
 }
 
 .third {
