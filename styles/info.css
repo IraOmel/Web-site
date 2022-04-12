@@ -86,7 +86,7 @@ a {
 .home {
   height: 580px;
   width: 1349px;
-  background: url("../images/info-back.png") no-repeat;
+  background: url("..//images/info-back.png") no-repeat;
 }
 
 .home-content {
