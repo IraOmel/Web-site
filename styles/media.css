@@ -4,7 +4,6 @@
     overflow-x: hidden;
   }
 }
-
 @media (max-width: 427px) {
   .container {
     width: 80%;
