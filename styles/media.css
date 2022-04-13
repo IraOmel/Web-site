@@ -45,7 +45,7 @@
     margin-top: -5px;
     padding-top: 16px;
     height: 204px;
-    background: url("../images/home-mobile-back.png") no-repeat;
+    background: url("..//images/home-mobile-back.png") no-repeat;
   }
   .home-content {
     width: 224px;
@@ -80,7 +80,7 @@
 /* About company */
 @media (max-device-width: 576px) {
   .about-company {
-    background:url("../images/mobile-background.png") no-repeat;
+    background:url("..//images/mobile-background.png") no-repeat;
     height: 1115px;
   }
   .rectangle{
