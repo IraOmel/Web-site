@@ -1,14 +1,14 @@
-@media (max-device-width: 576px) {
+@media (max-device-width: 391px) {
   .wrapper {
     width: 100%;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 391px) {
   .container {
     width: 80%;
     margin: 0;
-    margin-left: 14px;
+    margin-left: 43px;
   }
 
   .block {
@@ -17,7 +17,7 @@
 }
 
 /* Header */
-@media (max-device-width: 576px) {
+@media (max-device-width: 391px) {
   .header {
     height: 35px;
   }
@@ -40,12 +40,12 @@
 }
 
 /* Home */
-@media (max-device-width: 576px) {
+@media (max-device-width: 391px) {
   .home {
     margin-top: -5px;
     padding-top: 16px;
     height: 204px;
-    background: url("..//images/home-mobile-back.png") no-repeat;
+    background: url("/images/home-mobile-back.png") no-repeat;
   }
   .home-content {
     width: 224px;
@@ -65,7 +65,7 @@
     margin-left: 33px;
   }
   .home-text + * {
-    margin-top: -20px;
+    margin-top: -13px;
   }
   .btn {
     height: 21px;
@@ -79,10 +79,10 @@
 }
 
 /* About company */
-@media (max-device-width: 576px) {
+@media (max-device-width: 391px) {
   .about-company {
-    background:url("..//images/mobile-background.png") no-repeat;
-    height: 1095px;
+    background:url("/images/mobile-background.png") no-repeat;
+    height: 1115px;
   }
   .rectangle{
     margin-left: 87px;
@@ -91,6 +91,7 @@
     height: 28px;
   }
   .about-company-title {
+    width: 136px;
     height: 30px;
     margin-left: 97px;
     margin-top: -35px;
@@ -109,9 +110,7 @@
   padding-top: 7px;
   font-size: 15px;
 }
-.specialization{
-  margin-top: -27px;
-}
+
 .specialization-header{
   margin-left: 0px;
   font-size: 24px;
@@ -125,6 +124,7 @@
 }
 .image-block{
   width: 0;
+  margin-left: 17px;
 }
 .image-block img{
   width: 278px;
@@ -133,34 +133,41 @@ height: 233px;
 }
 
 /* Our projects */
-@media (max-device-width: 576px) {
+@media (max-device-width: 391px) {
   .container-fluid{
     width:100%
   }
   .our-project-title {
     height: 30px;
-    margin-left: 122px;
+    margin-left: 152px;
     margin-top: -35px;
     font-size: 18px;
   }
+
+  .second{
+    margin-left: 120px;
+  }
   .button-6{
-    left: 106px;
+    left: 126px;
   }
 
 }
 
 /* Our advantages */
-@media (max-device-width: 576px) {
+@media (max-device-width: 391px) {
   .our-advantages {
     display: none;
   }
   .row{
     flex-direction: column;
   }
+  .col-md-4{
+    margin-left: 0;
+  }
 }
 
 /* Footer */
-@media (max-device-width: 576px) {
+@media (max-device-width: 391px) {
   .footer {
     display: none;
   }
