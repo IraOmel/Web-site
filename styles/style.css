@@ -6,11 +6,15 @@
 }
 
 body {
-  width: 1349px;
   font-family: "Didact Gothic", sans-serif;
-  margin: auto;
+  margin: 0;
   font-weight: 400;
   background-color: #f6f8ff;
+}
+
+.wrapper{
+  width: 1349px;
+  margin: auto;
 }
 
 h1 {
@@ -38,7 +42,6 @@ a {
   align-items: center;
   background-color: #218d4f;
   height: 64px;
-  width: 1349px;
 }
 
 .header-logo {
@@ -89,11 +92,10 @@ line-height: 20px;
 .home {
   position: relative;
   height: 552px;
-  width: 1349px;
   padding-top: 81px;
   padding-bottom: 57px;
   margin-bottom: -10px;
-  background: url("../images/home-img.jpg") no-repeat;
+  background: url("..//images/home-img.jpg") no-repeat;
 }
 
 .home-content {
@@ -136,8 +138,8 @@ line-height: 20px;
   display: inline-block;
   font-family: 'Jura', sans-serif;
   font-weight: 600;
-font-size: 20px;
-line-height: 24px;
+  font-size: 20px;
+  line-height: 24px;
   color: rgba(255, 255, 255, 1);
   text-align: center;
   text-decoration: none;
@@ -188,7 +190,7 @@ line-height: 41px;
   padding-top: 130px;
   padding-bottom: 15px;
   height: 658px;
-  background: url("../images/line.png") no-repeat;
+  background: url("..//images/line.png") no-repeat;
 }
 
 .about {
@@ -286,7 +288,7 @@ line-height: 41px;
   padding-top: 722px;
   padding-bottom: 18px;
   height: 669px;
-  background: url("images/lines2.png") no-repeat;
+  background: url("..//images/lines2.png") no-repeat;
 }
 
 .container-fluid {
@@ -474,7 +476,7 @@ img {
 .our-advantages{
   margin-top: 11px;
   height: 437px;
-  background:url("../images/back-adv.png") no-repeat;
+  background:url("..//images/back-adv.png") no-repeat;
 }
 
 .third {
@@ -547,7 +549,6 @@ b {
 .footer{
   background-color:#218d4f;
   height: 120px;
-  width: 1349px;
   display: flex;
 }
 
