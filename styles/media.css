@@ -1,10 +1,10 @@
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .wrapper {
     width: 100%;
   }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 576px) {
   .container {
     width: 80%;
     margin: 0;
@@ -17,7 +17,7 @@
 }
 
 /* Header */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .header {
     height: 35px;
   }
@@ -40,12 +40,12 @@
 }
 
 /* Home */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .home {
     margin-top: -5px;
     padding-top: 16px;
     height: 204px;
-    background: url("/images/home-mobile-back.png") no-repeat;
+    background: url("..//images/home-mobile-back.png") no-repeat;
   }
   .home-content {
     width: 224px;
@@ -79,9 +79,9 @@
 }
 
 /* About company */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .about-company {
-    background:url("/images/mobile-background.png") no-repeat;
+    background:url("..//images/mobile-background.png") no-repeat;
     height: 1115px;
   }
   .rectangle{
@@ -133,7 +133,7 @@ height: 233px;
 }
 
 /* Our projects */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .container-fluid{
     width:100%
   }
@@ -154,7 +154,7 @@ height: 233px;
 }
 
 /* Our advantages */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .our-advantages {
     display: none;
   }
@@ -167,7 +167,7 @@ height: 233px;
 }
 
 /* Footer */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .footer {
     display: none;
   }
