@@ -1,6 +1,7 @@
 @media (max-device-width: 576px) {
   .wrapper {
     width: 100%;
+    overflow-x: hidden;
   }
 }
 
