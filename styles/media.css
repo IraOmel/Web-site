@@ -1,11 +1,11 @@
-@media (max-device-width: 576px) {
+@media (max-device-width: 427px) {
   .wrapper {
     width: 100%;
     overflow-x: hidden;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 427px) {
   .container {
     width: 80%;
     margin: 0;
@@ -18,7 +18,7 @@
 }
 
 /* Header */
-@media (max-device-width: 576px) {
+@media (max-device-width: 427px) {
   .header {
     height: 35px;
   }
@@ -41,7 +41,7 @@
 }
 
 /* Home */
-@media (max-device-width: 576px) {
+@media (max-device-width: 427px) {
   .home {
     margin-top: -5px;
     padding-top: 16px;
@@ -78,13 +78,14 @@
     display: none;
   }
 }
+
 /* About company */
-@media (max-device-width: 576px) {
+@media (max-device-width: 427px) {
   .about-company {
-    background:url("..//images/mobile-background.png") no-repeat;
+    background: url("..//images/mobile-background.png") no-repeat;
     height: 1115px;
   }
-  .rectangle{
+  .rectangle {
     margin-left: 87px;
     margin-top: -101px;
     width: 147px;
@@ -96,46 +97,49 @@
     margin-left: 97px;
     margin-top: -35px;
     font-size: 18px;
-}
-.about-company-content {
-  flex-direction: column;
-  margin-top: 174px;
-  align-items: flex-start;
-}
-.info-header{
-  font-size: 24px;
-}
-.info-content{
-  width: 299px;
-  padding-top: 7px;
-  font-size: 15px;
-}
+  }
+  .about-company-content {
+    flex-direction: column;
+    margin-top: 174px;
+    align-items: flex-start;
+  }
+  .info-header {
+    font-size: 24px;
+  }
+  .info-content {
+    width: 299px;
+    padding-top: 7px;
+    font-size: 15px;
+  }
 
-.specialization-header{
-  margin-left: 0px;
-  font-size: 24px;
-}
-.specialization-content{
-  margin-left: 15px;
-}
-.text{
-  font-size: 20px;
-  margin-bottom: 15px;
-}
-.image-block{
-  width: 0;
-  margin-left: 17px;
-}
-.image-block img{
-  width: 278px;
-height: 233px;
-}
+  .specialization-header {
+    margin-left: 0px;
+    font-size: 24px;
+  }
+  .specialization-content {
+    margin-left: 15px;
+  }
+  .text {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .image-block {
+    width: 0;
+    margin-left: 17px;
+  }
+  .image-block img {
+    width: 278px;
+    height: 233px;
+  }
 }
 
 /* Our projects */
-@media (max-device-width: 576px) {
-  .container-fluid{
-    width:100%
+@media (max-device-width: 427px) {
+  .container-fluid {
+    width: 100%;
+  }
+  .our-project {
+    height: 2165px;
   }
   .our-project-title {
     height: 30px;
@@ -143,31 +147,109 @@ height: 233px;
     margin-top: -35px;
     font-size: 18px;
   }
-
-  .second{
+  .row {
+    flex-direction: column;
+  }
+  .col-md-4 {
+    margin-left: 0;
+  }
+  .second {
     margin-left: 120px;
   }
-  .button-6{
+  .button-6 {
     left: 126px;
   }
 }
 
 /* Our advantages */
-@media (max-device-width: 576px) {
+@media (max-device-width: 427px) {
   .our-advantages {
-    display: none;
+    margin-top: 1px;
   }
-  .row{
+  .third {
+    margin-left: 81px;
+  }
+  .our-advantages-title {
+    height: 30px;
+    margin-left: 109px;
+    margin-top: -35px;
+    font-size: 19px;
+    width: 0;
+  }
+  .adv {
+    font-size: 24px;
+    width: 210px;
+    margin-top: 26px;
+  }
+
+  .our-advantages-content {
     flex-direction: column;
+    margin-top: 0;
+    align-items: flex-start;
   }
-  .col-md-4{
-    margin-left: 0;
+
+  .features p {
+    font-size: 18px;
+  }
+  .rating {
+    margin-top: -250px;
+    margin-left: 207px;
+  }
+  .rating p {
+    margin-bottom: -11px;
+  }
+  .rating img {
+    width: 82px;
+  }
+  .image-adv{
+    margin-top: 26px;
+    margin-left: -35px;
+    height: 224px;
+  }
+  .image-adv img {
+    width: 360.75px;
+    height: 204px;
+    
   }
 }
 
 /* Footer */
-@media (max-device-width: 576px) {
-  .footer {
-    display: none;
+@media (max-device-width: 427px) {
+  .footer-info img {
+    width: 17px;
+    height: 48px;
+  }
+  .footer-info p{
+    font-size: 7px;
+    width: 115px;
+  }
+  .mail{
+    left: 136px;
+    top: 18px;
+  }
+  .tel{
+    left: 200px;
+    top: 3px;
+  }
+
+  .footer-icon {
+    display: flex;
+    flex-direction: row;
+    left: 34px;
+    top: 34px;
+  }
+  .footer-icon img{
+    width: 21px;
+  }
+  .footer-icon i{
+    padding-right:  17px;
+  }
+  .footer-logo {
+    margin-left: 100px;
+    margin-top: 43px;
+  }
+  .footer-logo img{
+    width: 53px;
+    height: 37px;
   }
 }
