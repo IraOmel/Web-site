@@ -1,10 +1,10 @@
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .wrapper {
     width: 100%;
   }
 }
 
-@media (max-width: 391px) {
+@media (max-width: 576px) {
   .container {
     width: 80%;
     margin: 0;
@@ -40,7 +40,7 @@
 }
 
 /* Home */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .home {
     margin-top: -5px;
     padding-top: 16px;
@@ -79,7 +79,7 @@
 }
 
 /* About company */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .about-company {
     background:url("..//images/mobile-background.png") no-repeat;
     height: 1095px;
@@ -133,7 +133,7 @@ height: 233px;
 }
 
 /* Our projects */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .container-fluid{
     width:100%
   }
