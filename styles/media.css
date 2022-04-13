@@ -17,7 +17,7 @@
 }
 
 /* Header */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .header {
     height: 35px;
   }
