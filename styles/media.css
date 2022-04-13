@@ -150,7 +150,7 @@ height: 233px;
 }
 
 /* Our advantages */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .our-advantages {
     display: none;
   }
@@ -160,7 +160,7 @@ height: 233px;
 }
 
 /* Footer */
-@media (max-device-width: 391px) {
+@media (max-device-width: 576px) {
   .footer {
     display: none;
   }
