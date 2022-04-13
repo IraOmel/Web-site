@@ -21,6 +21,7 @@
 @media (max-device-width: 427px) {
   .header {
     height: 35px;
+    overflow: hidden;
   }
   .header-row {
     height: 35px;
@@ -215,6 +216,13 @@
 
 /* Footer */
 @media (max-device-width: 427px) {
+  .footer{
+    height: 87px;
+    overflow: hidden;
+  }
+  .footer-block{
+    height: 96px;
+  }
   .footer-info img {
     width: 17px;
     height: 48px;
@@ -245,7 +253,7 @@
     padding-right:  17px;
   }
   .footer-logo {
-    margin-left: 100px;
+    margin-left: 118px;
     margin-top: 43px;
   }
   .footer-logo img{
