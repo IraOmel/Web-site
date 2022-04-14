@@ -47,7 +47,7 @@
 @media (max-device-width: 427px) {
     .home {
         height: 190px;
-        background: url("/images/mobile-project.png") no-repeat;
+        background: url("..//images/mobile-project.png") no-repeat;
     }
     .home-content{
         height: 50px;
