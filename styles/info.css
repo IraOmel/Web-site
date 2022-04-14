@@ -6,11 +6,15 @@
 }
 
 body {
-  width: 1349px;
   font-family: "Didact Gothic", sans-serif;
-  margin: auto;
   font-weight: 400;
+  margin: 0;
   background-color: #f6f8ff;
+}
+
+.wrapper{
+  width: 1349px;
+  margin: auto;
 }
 
 h1 {
