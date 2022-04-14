@@ -48,7 +48,6 @@
     .home {
         height: 190px;
         background: url("..//images/mobile-info.png") no-repeat;
-        background-size: cover;
     }
     .home-content{
         height: 137px;
