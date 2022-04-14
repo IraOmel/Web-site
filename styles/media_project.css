@@ -1,0 +1,134 @@
+@media (max-device-width: 427px) {
+    .wrapper {
+      width: 100%;
+      overflow-x: hidden;
+    }
+  }
+  
+  @media (max-width: 427px) {
+    .container {
+      width: 80%;
+      margin: 0;
+      margin-left: 46px;
+    }
+  
+    .block {
+      margin-left: 3px;
+    }
+
+  }
+
+  
+/* Header */
+@media (max-device-width: 427px) {
+    .header {
+      height: 35px;
+      overflow: hidden;
+    }
+    .header-row {
+      height: 35px;
+    }
+    .header-tel {
+      font-size: 5px;
+    }
+    .header-nav {
+      display: none;
+    }
+    .header-logo {
+      height: 48px;
+    }
+    img {
+      width: 50px;
+      height: 48px;
+    }
+  }
+
+  /* Home */
+@media (max-device-width: 427px) {
+    .home {
+        height: 190px;
+        background: url("/images/mobile-project.png") no-repeat;
+    }
+    .home-content{
+        height: 50px;
+        padding-top: 54px;
+        padding-left: 157px;
+    }
+
+    .home-heading{
+        margin-top: 0px;
+        width: 152px;
+        font-size: 25px;
+        z-index: 1;
+    }
+    .home-text{
+        width: 249px;
+        margin-left: -105px;
+    margin-top: -21px;
+    font-size: 10px;
+    }
+
+    .row{
+        flex-wrap: wrap;
+        height: 603px;
+    }
+
+    .content-image {
+        height: 300px;
+  }
+
+  .col-md-4{
+      width: 50%;
+      margin-bottom: -7px;
+  }
+  .button-6{
+    width: 93px;
+    left: 40%;
+    top: 7px;
+    font-size: 17px;
+  }
+}
+
+/* Footer */
+@media (max-device-width: 427px) {
+    .footer{
+        margin-top: 19px;
+      height: 87px;
+    }
+    .footer-block{
+      height: 96px;
+      justify-content: space-between;
+    }
+    .footer-info img {
+      width: 17px;
+      height: 48px;
+    }
+    .footer-info p{
+      font-size: 7px;
+      width: 115px;
+    }
+    .mail{
+      left: 136px;
+      top: 18px;
+    }
+    .tel{
+      left: 200px;
+      top: 3px;
+    }
+  
+    .footer-icon {
+      display: flex;
+      flex-direction: row;
+      left: 34px;
+      top: 34px;
+    }
+    .footer-icon img{
+      width: 21px;
+    }
+    .footer-icon i{
+      padding-right:  17px;
+    }
+    .footer-logo {
+   display: none;
+  }
+}
