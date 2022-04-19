@@ -41,6 +41,9 @@
       width: 50px;
       height: 48px;
     }
+      .mobile-nav-icon{
+    display: flex;
+  }
   }
   /* Home */
 @media (max-device-width: 427px) {
