@@ -82,6 +82,13 @@ h1 {
 .nav_link:last-child {
   margin-right: 0;
 }
+.mobile-nav-icon{
+  display: none;
+}
+.mobile-nav-icon img{
+  width: 18px;
+  height: 25px;
+}
 /* Header end */
 
 
