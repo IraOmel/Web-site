@@ -119,6 +119,9 @@ line-height: 20px;
 .home-heading + * {
   margin-top: 21px;
 }
+.mobile-text{
+  display: none;
+}
 .home-text {
   height: 120.43px;
   font-weight: 400;
