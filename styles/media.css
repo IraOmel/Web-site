@@ -55,21 +55,28 @@
     width: 224px;
   }
   .home-heading {
-    font-size: 32px;
-    line-height: 39px;
+    font-size: 39px;
+    line-height: 47px;
   }
-  .home-text {
-    margin-top: -4px;
-    width: 223px;
-    height: 85px;
-    font-size: 8px;
-    line-height: 12px;
+    .mobile-text {
+    display: flex;
+    margin-top: -9px;
+    text-align: center;
+    width: 194px;
+    height: 89px;
+    font-size: 13px;
+    line-height: 14px;
+    color: #F6F8FF;
   }
+  .home-text{
+    display: none;
+  }
+  
   .home-btn {
-    margin-left: 33px;
+    margin-left: 34px;
   }
   .home-text + * {
-    margin-top: -13px;
+    margin-top: -15px;
   }
   .btn {
     height: 21px;
