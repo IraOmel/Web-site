@@ -4,7 +4,7 @@ class ConnectBD
 {
     private static $instance = null;
     private $connection;
-    private $bd_info = array("host" => '127.0.0.1', "user" => 'newuser', "password" => 'lbyfvjrb]d2020');
+    private $bd_info = array("host" => '127.0.0.1', "user" => 'root', "password" => 'password');
     private $name = 'data_base';
 
     private function __construct()
