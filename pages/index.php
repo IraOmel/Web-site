@@ -179,6 +179,7 @@
         </section>
     </div>
 </main>
+    <?php require '../templates/footer.php';?>
 </body>
 </html>
 
