@@ -1,4 +1,4 @@
-@media (max-device-width: 427px) {
+@media (max-width: 427px) {
   .wrapper {
     width: 100%;
     overflow-x: hidden;
@@ -17,7 +17,7 @@
 }
 
 /* Header */
-@media (max-device-width: 427px) {
+@media (max-width: 427px) {
   .header {
     height: 35px;
     overflow: hidden;
@@ -44,7 +44,7 @@
 }
 
 /* Home */
-@media (max-device-width: 427px) {
+@media (max-width: 427px) {
   .home {
     margin-top: -5px;
     padding-top: 16px;
@@ -90,7 +90,7 @@
 }
 
 /* About company */
-@media (max-device-width: 427px) {
+@media (max-width: 427px) {
   .about-company {
     background: url("..//images/mobile-background.png") no-repeat;
     height: 1115px;
@@ -144,7 +144,7 @@
 }
 
 /* Our projects */
-@media (max-device-width: 427px) {
+@media (max-width: 427px) {
   .container-fluid {
     width: 100%;
   }
@@ -172,7 +172,7 @@
 }
 
 /* Our advantages */
-@media (max-device-width: 427px) {
+@media (max-width: 427px) {
   .our-advantages {
     margin-top: 1px;
   }
@@ -223,7 +223,7 @@
 }
 
 /* Footer */
-@media (max-device-width: 427px) {
+@media (max-width: 427px) {
   .footer{
     height: 87px;
     overflow: hidden;
