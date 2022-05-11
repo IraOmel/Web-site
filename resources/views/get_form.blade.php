@@ -9,7 +9,6 @@
     <link href={{asset('css/info_page.css')}} rel="stylesheet">
 @endsection
 
-
 @section('content')
     <div class="flex-center position-ref full-height">
         <div class="formOkMsg">
