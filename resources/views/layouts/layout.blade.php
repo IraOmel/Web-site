@@ -7,6 +7,8 @@
     <title>@yield('title')</title>
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+
+
     <!-- Styles -->
      @yield('style')
 </head>
@@ -26,7 +28,19 @@
             </nav>
         </div>
     </div>
+    <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+    <label for="menu-icon"></label>
+    <nav class="nav">
+        <ul class="pt-5">
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Проекти</a></li>
+            <li><a href="#">Співпраця</a></li>
+        </ul>
+    </nav>
 </header>
+
+
 
 @yield('content')
 
