@@ -103,7 +103,6 @@
             box-shadow: 2px 2px 5px -1px rgba(0, 0, 0, 0.35);
             transistion: all 0.4s;
         }
-
         #toggle {
             position: absolute;
             left: 0;
