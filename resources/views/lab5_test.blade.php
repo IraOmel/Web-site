@@ -1,7 +1,5 @@
 @extends('layouts.layout')
 
-
-
 @section('title')
     Build company-Project
 @endsection

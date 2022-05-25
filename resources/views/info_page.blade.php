@@ -13,14 +13,12 @@
             box-sizing: border-box;
         }
 
-
         body {
             font-family: "Didact Gothic", sans-serif;
             font-weight: 400;
             margin: 0;
             background-color: #f6f8ff;
         }
-
         .home-input{
             display: flex;
             flex-direction: column;
